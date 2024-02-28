@@ -27,7 +27,7 @@ Containers and virtual machines are both technologies used to isolate applicatio
 
     3. Security: VMs provide a higher level of security as each VM has its own operating system and can be isolated from the host and other VMs. Containers provide less isolation, as they share the host operating system.
 
-   4.  Management: Managing containers is typically easier than managing VMs, as containers are designed to be lightweight and fast-moving.
+    4.  Management: Managing containers is typically easier than managing VMs, as containers are designed to be lightweight and fast-moving.
 
 
 
@@ -146,7 +146,7 @@ A Docker registry stores Docker images. Docker Hub is a public registry that any
 When you use the docker pull or docker run commands, the required images are pulled from your configured registry. When you use the docker push command, your image is pushed to your configured registry.
 Docker objects
 
-When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects. This section is a brief overview of some of those objects.
+When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects.
 
 
 #### Dockerfile
